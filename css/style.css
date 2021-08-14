@@ -1,4 +1,8 @@
 
+p {
+    font-size: 20px;
+}
+
 /* JUMBOTRON style */
 
 .caseStudyHero {
@@ -127,31 +131,58 @@
 
 /* PERSONA style */
 
-.UserPersona {
-    display: block;
+.PersonaSection {
     margin-top: 10%;
+    align-items: center;
     padding-right: 70px;
     padding-left: 70px;
 }
+
+.UserPersona {
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 .persona {
     float:left;
+    height: 600px;
+    padding: 40px;
 }
 
 /* end of persona section */
 
 /* IDEATION style */
 
+.Idea {
+    margin-top: 10%;
+    align-items: center;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
 .ideation {
     display: flex;
 }
+
+.ideationcard1 {
+    display: flex;
+    align-items: center;
+}
+
+.ideationcard2 {
+    display: flex;
+    align-items: center;
+}
 .iLikeiWish {
-    float: left;
-    width: 50%;
+    float: right;
+    width: 60%;
 }
 
 .featureMatrix {
     float: right;
-    width: 50%
+    width: 70%
 }
 
 
