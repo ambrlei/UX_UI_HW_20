@@ -1,0 +1,177 @@
+
+/* JUMBOTRON style */
+
+.caseStudyHero {
+    display: inline-flex;
+    margin: auto;
+}
+
+.caseStudypic {
+    width: 800px;
+    float:left;
+    padding-left: 70px;
+    border-radius: 20%;
+}
+
+.jumbotron {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.caseTitle {
+    padding-left: 70px;
+}
+
+/* end of jumbotron style */
+
+/* PROJECT OVERVIEW style */
+
+.projectOverview {
+    padding-left: 70px;
+    padding-right: 70px;;
+}
+
+/* end of project overview style */
+
+/* DESIGN PROCESS style */
+
+.stepProcess {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    padding: 80px;
+    margin: 20px;
+   
+}
+
+.Process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;;
+}
+
+.row {
+    justify-content: center;
+    padding: 20px;
+}
+
+/* end of design process style */
+
+/* USER RESEARCH STYLE */
+
+    /*surveyResults*/
+
+.UserResearch {
+    display: block;
+    padding-left: 70px;
+    padding-right: 70px;;
+}
+
+.researchRow1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 90px;
+    align-content: center;
+}
+
+.researchBlock {
+    padding: 50px;
+}
+
+
+.researchRow2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 70px;
+    align-content: center;
+}
+
+.statOrange {
+    background-color: orange;
+    color: white;
+}
+
+.TextOrange {
+    color: orange;
+}
+
+/* Interview Findings */
+
+.interviewFindings {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+/* User Insight */
+
+.UserInsight {
+    display: flex;
+    padding-right: 70px;
+    padding-left: 70px;
+    background-color: orange;
+    
+    align-content: center;
+    margin-top: 10%;
+}
+
+.Insight {
+    display: block;
+    align-content: center;
+}
+
+/* end of user insight */
+
+/* PERSONA style */
+
+.UserPersona {
+    display: block;
+    margin-top: 10%;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.persona {
+    float:left;
+}
+
+/* end of persona section */
+
+/* IDEATION style */
+
+.ideation {
+    display: flex;
+}
+.iLikeiWish {
+    float: left;
+    width: 50%;
+}
+
+.featureMatrix {
+    float: right;
+    width: 50%
+}
+
+
+
+/* responsive codes */
+
+@media (max-width: 767.98px) {
+
+    .researchRow1 {
+        display: block;
+        justify-content: center;
+        margin: 90px;
+        align-content: center;
+    }
+
+    @media (max-width: 991.98px){
+        .researchRow1 {
+            display: block;
+            justify-content: center;
+            margin: 90px;
+            align-content: center;
+        }
+ 
